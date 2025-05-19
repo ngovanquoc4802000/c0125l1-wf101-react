@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.bai3 button {
+  position: absolute;
+  border-radius: 6px;
+  top: 400px;
+  left: 150px;
+  background-color: rgb(28, 38, 143);
+  color: white;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ccc;
+}
+
+.fullName {
+  position: absolute;
+  top: 290px;
+  left: 58px;
+}
+.bai3 {
+  height: 500px;
+  width: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+  margin: 1rem auto 0 auto;
+  border-radius: 8px;
+}
+.avatar {
+  border-radius: 50%;
+  width: 2000px;
+  position: absolute;
+  height: 200px;
+  top: 200px;
+  left: 200px;
+}
+.intro {
+  left: 7px;
+  position: absolute;
+  top: 300px;
+}
+
+.bai {
+  height: 500px;
+  margin: 2rem auto 0 auto;
+  text-align: left;
+  width: 500px;
+}
+.background {
+  height: 200px;
+  width: 500px;
+}
