@@ -17,7 +17,7 @@ function Example2() {
     }
     const user1 = greeting(user);
     const user2 = greeting(null);
-    function formatName(user: { firstName: any; lastName: any; }) {
+    function formatName(user: { firstName: string; lastName: string; }) {
         return `${user.firstName} ${user.lastName}`;
     }
     return (
